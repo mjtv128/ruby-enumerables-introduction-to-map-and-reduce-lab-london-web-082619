@@ -31,5 +31,6 @@ end
 
 def reduce_to_any_true(source_array)
   source_array.each{|x| return true if x}
+  return false
 end 
 

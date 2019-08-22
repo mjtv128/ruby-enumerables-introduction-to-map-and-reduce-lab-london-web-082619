@@ -25,9 +25,8 @@ end
 
 def reduce_to_total(source_array, starting_point =0)
    i = 0
-    source_array.each{|x| while i < source_array.length
-      i += 1
-    end
+    source_array.each{|x| i +=1}
+
   end 
 
 def reduce_to_all_true(source_array)

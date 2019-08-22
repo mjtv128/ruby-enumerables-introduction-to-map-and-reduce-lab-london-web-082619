@@ -1,4 +1,5 @@
 # My Code here....
+require 'pry'
 def map_to_negativize(source_array)
   source_array.map { |n| n * -1 }
 end 
@@ -26,6 +27,7 @@ end
 
 def reduce_to_all_true(source_array)
   source_array.map{|x| !!x}
+  binding.pry
 end 
 
 def reduce_to_any_true(source_array)

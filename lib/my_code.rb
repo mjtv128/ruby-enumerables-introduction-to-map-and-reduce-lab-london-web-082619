@@ -26,7 +26,7 @@ end
 
 
 def reduce_to_all_true(source_array)
-  source_array.map{|x| !!x}
+  source_array.map{|x| !x}
   binding.pry
 end 
 

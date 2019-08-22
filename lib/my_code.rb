@@ -25,7 +25,7 @@ end
 
 
 def reduce_to_all_true(source_array)
-  source_array.each{|x| source_array.include?(!!x)}
+  source_array.each{|x| !!xsource_array.include?()}
 end 
 
 def reduce_to_any_true(source_array)

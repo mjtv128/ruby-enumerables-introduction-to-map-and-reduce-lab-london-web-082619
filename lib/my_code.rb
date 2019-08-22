@@ -24,9 +24,19 @@ def reduce_to_total(source_array, starting_point =0)
 end 
 
 def reduce_to_total(source_array, starting_point =0)
+  sum = 0 
+  for i in 0..source_array.length do 
+    sum += source_array[i]
    i = 0
     source_array.each{|x| i +=1}
   puts i
+  array = [1, 2, 3, 4]
+    sum = 0
+    for i in 0...array.length do
+        sum += array[i]
+    end
+    assert_equal(10, sum)
+end
   end 
 
 def reduce_to_all_true(source_array)
